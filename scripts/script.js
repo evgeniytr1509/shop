@@ -86,7 +86,7 @@ document.getElementById("change-currency").onclick = function (e) {
 
     else if (currentCurrency === "₽") {
         newCurrency = "BYN";
-        coefficient = 4;
+        coefficient = 3;
     }
     else if (currentCurrency === "BYN") {
         newCurrency = "¥";
