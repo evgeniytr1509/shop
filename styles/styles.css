@@ -26,7 +26,7 @@ body{
 
 .button{
     border-radius: 8px;
-    background: linear-gradient(96deg, #DA8023 0%, #E2B438) 100%;
+    background: linear-gradient(96deg, #f3730a 0%, #1b1b1f) 100%;
     width: 260px;
     height: 62px;
     padding: 19px;
@@ -39,6 +39,7 @@ body{
     outline: none;
     color: #191411;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .button:hover{
@@ -55,7 +56,8 @@ body{
 }
 
 .main {
-    background-image: url("../images/main_bg.png");
+    background-image: url("../images/main_bg1.png");
+    background: #5f6b6b;
     background-position: top center;
     overflow: hidden;
 }
@@ -111,10 +113,14 @@ body{
     user-select: none;
 }
 
+
 .main-content{
     padding-top: 103px;
     padding-bottom: 199px;
+
 }
+
+
 
 .main-content .container{
     position: relative;
@@ -133,9 +139,9 @@ body{
 }
 
 .main-title {
-    font-size: 120px;
+    font-size: 80px;
     font-family: 'Merriweather', sans-serif;
-    line-height: 156px;
+    line-height: 100px;
     letter-spacing: 3.60px;
     text-transform: uppercase;
     margin-bottom: 56px;
@@ -197,16 +203,18 @@ body{
     gap: 24px;
     margin-top: 60px;
 }
-
+/* фон товаров */
 .products-item{
     padding: 30px;
-    background: #211A16;
+    background: #4d2e26;
     border-radius: 16px;
     border: 1px solid #353535;
+    max-width: 100%;
 }
 
 .products-item-image{
-    height: 250px;
+    height:500px;
+
 }
 
 products-item-image img{
@@ -248,10 +256,12 @@ products-item-image img{
     justify-content: center;
     width: 182px;
     height: 62px;
+
 }
 
 .button.product-button span:first-child{
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .order{

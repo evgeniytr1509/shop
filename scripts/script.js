@@ -2,8 +2,16 @@
 // вызов действия по нажатию кнопки  "Смотреть меню" строка в html c идентификатором id="main-action-button"
 //<button className="button" id="main-action-button">Смотреть меню</button>
 //после ввода document.getElementById в скобках открыть кавычки и написать имя идентификатора main-action-button. elementld - не небирать
-document.getElementById("main-action-button").onclick = function () {
-    document.getElementById("products").scrollIntoView({behavior: "smooth"}) // agr не небирать
+document.getElementById("main-action-button_sh").onclick = function () {
+    document.getElementById("products_sh").scrollIntoView({behavior: "smooth"}); // agr не небирать
+}
+
+document.getElementById("main-action-button_cond").onclick = function () {
+    document.getElementById("products_cond").scrollIntoView({behavior: "smooth"}); // agr не небирать
+}
+
+document.getElementById("main-action-button_los").onclick = function () {
+    document.getElementById("products").scrollIntoView({behavior: "smooth"}); // agr не небирать
 }
 
 // ДЕЙСТВИЯ ПО ССЫЛКАМ
