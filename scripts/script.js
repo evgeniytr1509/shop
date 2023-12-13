@@ -11,7 +11,7 @@ document.getElementById("main-action-button_cond").onclick = function () {
 }
 
 document.getElementById("main-action-button_los").onclick = function () {
-    document.getElementById("products").scrollIntoView({behavior: "smooth"}); // agr не небирать
+    document.getElementById("products_los").scrollIntoView({behavior: "smooth"}); // agr не небирать
 }
 
 // ДЕЙСТВИЯ ПО ССЫЛКАМ
