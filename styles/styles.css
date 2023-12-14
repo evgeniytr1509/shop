@@ -56,10 +56,11 @@ body{
 }
 
 .main {
-    background-image: url("../images/main_bg1.png");
-    background: #5f6b6b;
+    background-image: url("../images/main_bg.png");
+
     background-position: top center;
     overflow: hidden;
+
 }
 
 .header{
